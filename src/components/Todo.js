@@ -1,7 +1,7 @@
 function Todo() {
     return (
       <div>
-        <h1>Todo Workd</h1>
+        <h1>Todo Work</h1>
       </div>
     );
   }
