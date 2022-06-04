@@ -1,8 +1,11 @@
-function Navbar() {
+const Navbar = ({ 
+  title, 
+  route,
+}) => {
     return (
       <nav className="navbar navbar-expand-lg navbar-light bg-light">
         <a className="navbar-brand" href="#">
-          Todo App
+          {title}
         </a>
         <button
           className="navbar-toggler"
@@ -39,4 +42,5 @@ function Navbar() {
   }
   
   export default Navbar;
+  
   
